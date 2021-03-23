@@ -42,7 +42,7 @@ public class LengthOfLongestSubstring {
      * i=3, current = d, prev = 1, start = 2, length = 2
      * i=4, current = f, prev = 0, start = 2, length = 3
      */
-    public int execute(String s) {
+    public int lengthOfLongestSubstring(String s) {
         int[] index = new int[128];
         int length = 0;
         int start = 0;
