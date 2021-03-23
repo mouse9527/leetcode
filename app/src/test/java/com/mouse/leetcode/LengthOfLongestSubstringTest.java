@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class LengthOfLongestSubstringTest {
 
     @Test
-    void should_be_able_to_sub_string() {
+    void should_be_able_to_execute() {
         LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
 
         assertThat(lengthOfLongestSubstring.lengthOfLongestSubstring("abcabcbb")).isEqualTo(3);
